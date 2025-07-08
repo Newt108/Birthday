@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Julie!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div id="envelope" class="envelope-wrapper">
+        <div class="envelope">
+            <div class="flap"></div>
+            <div class="pocket"></div>
+            <div class="letter">
+                <div class="typing-text">HappyBirthday Sakshi🌸</div>
+                <div class="note">"You’re not getting older, you’re just becoming a classic queen!" 👑🎉</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cake">
+        <img src="cake.png" alt="Birthday Cake" loading="lazy">
+    </div>
+
+    <div class="balloons"></div>
+
+    <audio id="bg-music" src="music.mp3" preload="auto" loop></audio>
+
+    <!-- Load confetti library first -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <!-- Then load your custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
